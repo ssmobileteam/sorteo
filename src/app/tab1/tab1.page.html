@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Sorteo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-img src="assets/trofeo.png"></ion-img>
+      <ion-card-subtitle>Ganador:</ion-card-subtitle>
+      <ion-card-title>{{ganador}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Felicitaciones sos el ganador!
+    </ion-card-content>
+  </ion-card>
+  <br>
+  <ion-button expand="block" (click)="sortear()">Sortear</ion-button>
+</ion-content>

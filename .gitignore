@@ -5,6 +5,7 @@
 *.tmp
 *.tmp.*
 log.txt
+package-lock.json
 *.sublime-project
 *.sublime-workspace
 
@@ -17,6 +18,10 @@ collection/
 dist/
 dist-transpiled/
 node_modules/
+android/
+plugins/
+resources/
+www/
 tmp/
 temp/
 core/theme-builder/
