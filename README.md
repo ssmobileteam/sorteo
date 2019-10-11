@@ -1,5 +1,5 @@
 # sorteo
-Aplicación desarrollada con (ionic 4, Angular 8, Capacitor)
+Aplicación desarrollada con (Ionic 4, Angular 8, Capacitor)
 
 How to run?
 - Download Node.JS
